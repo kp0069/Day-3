@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css position</title>
+    <style>
+        .color-pink{
+            height: 300px;
+            background-color: rgb(109, 66, 101);
+            opacity: 0.3;
+        }
+        div{
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Position</h2>
+    <div style="position: relatives">
+    <div class="color-pink"></div>
+    <div style="position: absolute;bottom:8px;left:16;">Bottom Left</div>
+    <div style="position: absolute;top:8px;left:16;">Top Left</div>
+    <div style="position: absolute;top:8px;right:16;">Top right</div>
+    <div style="position: absolute;bottom:8px;right:16;">Bottom right</div>
+    <div style="position: absolute;top:50%;left:50%;transform:translate(-50%,50%)">Centered</div>
+    </div></body>
+</html>
